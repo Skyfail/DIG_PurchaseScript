@@ -12,7 +12,7 @@
         if(!row.innerHTML.includes('DLC'))
         {
             let id = (row.querySelectorAll("a")[1].getAttribute("href")).replace('account_buy_', '').replace('.html', '');
-          	if(id == '1713658' || id == '1979402' || id == '1617912') {
+          	if(id == '1713658' || id == '1979402' || id == '1617912' || id == '1620843' || id == '1621820' || id == '1515327') {
               continue;
             }
           
